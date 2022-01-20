@@ -1,0 +1,47 @@
+.school-news{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:5%;
+    flex-wrap: wrap;
+}
+.news{
+    margin:50px;
+    width:32%;
+    height:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:2px solid #E7731D;
+    padding:30px;
+    border-radius:4px;
+    transition: 0.2s ease-in-out;
+}
+.news:hover{
+    transform:scale(1.1);
+}
+.news img{
+    width:100%;
+    height:50%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.news h1{
+    color:#363636;
+}
+.news p{
+    color:#404040;
+}
+.news h5{
+    color:#404040;
+}
+.news a{
+    text-decoration: none;
+    color:#482980;
+}
+@media(max-width:1000px){
+    .school-news{
+        flex-direction: column;
+        align-items: center;
+    }
+}
